@@ -19,11 +19,11 @@
             padding: 0;
             background-color: #f0f0f0;
             background-image: url('img/cielo.jpg'); /* Imagen de fondo */
-            background-size: cover;
+           background-size: cover;
             background-position: center;
-        }
-        header {
-            background-color: rgba(76, 175, 80, 0.8); /* Fondo verde con opacidad */
+            background-attachment: fixed;
+               header {
+            background-color: #4CAF50;
             color: white;
             padding: 1em;
             text-align: center;
@@ -54,8 +54,6 @@
         }
         main {
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
-            border-radius: 8px;
         }
         .post, .section {
             background-color: white;
@@ -78,7 +76,7 @@
         footer {
             text-align: center;
             padding: 1em;
-            background-color: rgba(76, 175, 80, 0.8); /* Fondo verde con opacidad */
+            background-color: #4CAF50;
             color: white;
             position: fixed;
             width: 100%;
@@ -88,15 +86,24 @@
             text-align: center;
             margin: 20px 0;
         }
-        .social-buttons__button {
+        .social-buttons a {
             display: inline-block;
             margin: 0 10px;
-            width: 32px;
-            height: 32px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            transition: background-color 0.3s, transform 0.3s;
         }
-        .social-buttons__button img {
-            width: 100%;
-            height: 100%;
+        .social-buttons a:hover {
+            background-color: #4CAF50;
+            transform: scale(1.1);
+        }
+        .social-buttons i {
+            font-size: 20px;
         }
         .jesus-image {
             text-align: center;
@@ -106,29 +113,6 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-        }
-        @media (max-width: 768px) {
-            nav ul li {
-                float: none;
-                display: block;
-                text-align: center;
-            }
-            nav ul li a {
-                padding: 10px;
-            }
-            .social-buttons__button {
-                width: 48px;
-                height: 48px;
-            }
-        }
-        @media (max-width: 480px) {
-            header, footer {
-                font-size: 14px;
-            }
-            .social-buttons__button {
-                width: 40px;
-                height: 40px;
-            }
         }
     </style>
 </head>
@@ -234,29 +218,30 @@
             <img src="img/gus2.webp" alt="Religión fundada por Jesucristo">
             <p>Jesucristo es la figura central del cristianismo, por lo tanto, fundó el cristianismo. Sin embargo, es importante destacar que Jesús de Nazaret nació y creció en el seno del judaísmo, y su enseñanza inicial estaba dirigida principalmente a los judíos. Jesús se refirió frecuentemente a la Ley de Moisés y a las Escrituras hebreas, y su mensaje inicial se centró en la necesidad de arrepentimiento y en la llegada del Reino de Dios, que era una idea central en el judaísmo. Fue después de su muerte y resurrección que sus seguidores, liderados por los apóstoles, comenzaron a predicar su mensaje a los gentiles (no judíos) y a establecer las bases del cristianismo como una religión distinta del judaísmo. Sin embargo, las raíces judías de Jesús y su enseñanza inicial son fundamentales para entender el contexto y el significado de su mensaje.</p>
         </section>
-        
-        <!-- Social Media Buttons -->
-        <section class="social-buttons">
-            <a href="https://x.com/RicharJasso" class="social-buttons__button">
-                <img src="img/twitter.png" alt="Twitter">
-            </a>
-            <a href="https://www.instagram.com/richar_jasso/" class="social-buttons__button">
-                <img src="img/instagram.png" alt="Instagram">
-            </a>
-            <a href="https://github.com/RicharJasso14" class="social-buttons__button">
-                <img src="img/github.png" alt="Github">
-            </a>
-            <a href="https://www.youtube.com/channel/UC35oXbZ9JQ5yufTUzrozrgA" class="social-buttons__button">
-                <img src="img/youtube.png" alt="YouTube">
-            </a>
+
+        <section class="jesus-image">
+            <h2>JESÚS ES TODO</h2>
+            <img src="img/jesus.jpg" alt="Jesús">
         </section>
         
-        <!-- Contact Form (if needed) -->
-        <section class="content contact">
-            <h2 class="title">Contacto</h2>
-            <div class="wrapper">
-                <!-- Contact form or additional contact information can go here -->
-            </div>
+        <section class="social-buttons">
+            <h2>Contacto</h2>
+            <a href="https://x.com/RicharJasso" class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/richar_jasso/" class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/RicharJasso14" class="icon github">
+                <div class="tooltip">Github</div>
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC35oXbZ9JQ5yufTUzrozrgA" class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <i class="fab fa-youtube"></i>
+            </a>
         </section>
     </main>
     <footer>
