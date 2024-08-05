@@ -18,11 +18,11 @@
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
-            background-image: url('img/cielo.jpg'); /* Imagen de fondo */
-           background-size: cover;
+            background-image: url('img/cielo.jpg');
+            background-size: cover;
             background-position: center;
             background-attachment: fixed;
- }
+        }
         header {
             background-color: #4CAF50;
             color: white;
@@ -66,7 +66,7 @@
         .post h2, .section h2 {
             margin-top: 0;
         }
-        .post img {
+        .post img, .section img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
@@ -115,6 +115,11 @@
             height: auto;
             border-radius: 8px;
         }
+        .author {
+            color: #0000FF; /* Azul para los nombres de los autores */
+            font-weight: bold;
+        }order-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -131,7 +136,7 @@
     <main>
         <!-- Sections -->
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Virtudes Teologales - Ana Montoya</h2>
+            <h2>Virtudes Teologales - <span class="author">Ana Montoya</span></h2>
             <img src="img/ana1.jpg" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p><strong>Fe:</strong> Creencia firme y confiada en algo o alguien.</p>
             <p><strong>Esperanza:</strong> Actitud o sentimiento de anticipar y desear que ocurra algo bueno en el futuro.</p>
@@ -139,7 +144,7 @@
         </section>
         
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Virtudes Cardinales - Ana Montoya</h2>
+            <h2>Virtudes Cardinales - <span class="author">Ana Montoya</span></h2>
             <img src="img/ana2.jpg" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p><strong>Prudencia:</strong> Capacidad de tomar decisiones y actuar con cautela y discernimiento.</p>
             <p><strong>Templanza:</strong> Virtud que implica la moderación y el autocontrol en los deseos y placeres.</p>
@@ -148,7 +153,7 @@
         </section>
 
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Requisitos para que un acto se considere milagro - Ana Montoya</h2>
+            <h2>Requisitos para que un acto se considere milagro - <span class="author">Ana Montoya</span></h2>
             <img src="img/ana3.jpeg" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p>1. Superar las leyes naturales.</p>
             <p>2. Ser atribuido a una intervención divina.</p>
@@ -156,7 +161,7 @@
         </section>
         
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>7 Sacramentos y en qué consisten - Jennifer Morales</h2>
+            <h2>7 Sacramentos y en qué consisten - <span class="author">Jennifer Morales</span></h2>
             <img src="img/jenny1.webp" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p><strong>Bautismo:</strong> Es aquello que le da un sentido a la vida cristiana. Se limpia a la persona del pecado original y se vuelve un miembro de la Iglesia.</p>
             <p><strong>Penitencia:</strong> Los fieles consiguen el perdón después del bautismo.</p>
@@ -168,12 +173,12 @@
         </section>
 
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Libros de la Biblia, Mandamientos y Formas de Concebir a Dios - Terri</h2>
+            <h2>Libros de la Biblia, Mandamientos y Formas de Concebir a Dios - <span class="author">Paola terriquez</span></h2>
             <img src="img/terri1.webp" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p><strong>Libros de la Biblia:</strong> En total son 73 libros. 46 de ellos pertenecen al Antiguo Testamento, y los otros 27 son parte del Nuevo Testamento.</p>
         </section>
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Mandamientos - Terri </h2>
+            <h2>Mandamientos <span class="author">Paola terriquez</span></h2>
             <img src="img/terri2.jpg" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <ul>
                 <li>Amarás a Dios sobre todas las cosas.</li>
@@ -191,7 +196,7 @@
         
 
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>5 Mandamientos de la Iglesia Católica - Gustavo Alberto Gómez</h2>
+            <h2>5 Mandamientos de la Iglesia Católica - <span class="author">Gustavo Alberto Gómez</span></h2>
             <img src="img/gus1.jpg" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <ul>
                 <li>Oír misa entera los domingos y fiestas de precepto.</li>
@@ -203,7 +208,7 @@
         </section>
 
         <section class="section"style="text-align: center; margin: 20px 0;">
-            <h2>Religión que fundó Jesucristo - Gustavo Alberto Gómez</h2>
+            <h2>Religión que fundó Jesucristo - <span class="author">Gustavo Alberto Gómez</span></h2>
             <img src="img/gus2.webp" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p>Jesucristo es la figura central del cristianismo, por lo tanto, fundó el cristianismo. Sin embargo, es importante destacar que Jesús de Nazaret nació y creció en el seno del judaísmo, y su enseñanza inicial estaba dirigida principalmente a los judíos.
 
@@ -213,7 +218,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
 </p>
         </section>
         <section class="section" style="text-align: center; margin: 20px 0;">
-            <h2>Formas de Concebir a Dios - Terri</h2>
+            <h2>Formas de Concebir a Dios - <span class="author">Paola terriquez</span></h2>
             <img src="img/terri3.webp" alt="Virtudes" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p>Dios puede ser concebido de muchas maneras diferentes, dependiendo de las creencias y experiencias personales de cada individuo. Algunas formas comunes de concebir a Dios incluyen:</p>
             <ul>
@@ -226,7 +231,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
         </section>
 
        <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>Datos históricos, teológicos y culturales sobre Jesús y el cristianismo - Ricardo Jasso </h2>
+    <h2>Datos históricos, teológicos y culturales sobre Jesús y el cristianismo - <span class="author">Ricardo Jasso</span></h2>
     <img src="img/jesusito.jpg" alt="Jesús y Cristianismo" style="max-width: 100%; height: auto; border-radius: 8px;">
     <p><strong>Datos Históricos sobre Jesús:</strong></p>
     <p><strong>Nacimiento y Vida Temprana:</strong> Jesús nació alrededor del año 4 a.C. en Belén. Era hijo de María y José, y creció en Nazaret.</p>
@@ -243,7 +248,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
 
         
         <section class="section" style="text-align: center; margin: 20px 0;">
-            <h2>Actitudes fanáticas ante la religiosidad - Mildred Durán</h2>
+            <h2>Actitudes fanáticas ante la religiosidad - <span class="author">Mildred Durán</span></h2>
             <img src="img/fanatismo.jpg" alt="Fanatismo Religioso" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p>El fanatismo religioso se caracteriza por un apego incondicional a las creencias y prácticas religiosas, sin permitir la apertura a otras perspectivas o a la crítica constructiva. Las personas que padecen este síndrome suelen mostrar las siguientes actitudes:</p>
             <ul>
@@ -257,7 +262,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
         </section>
 
         <section class="section" style="text-align: center; margin: 20px 0;">
-            <h2>Oración, rezo y pecado - Mildred Durán</h2>
+            <h2>Oración, rezo y pecado - <span class="author">Mildred Durán</span></h2>
             <img src="img/oracion.webp" alt="Oración y Rezo" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p><strong>Oración:</strong> Es una práctica espiritual fundamental en muchas tradiciones alrededor del mundo. A través de la oración, los creyentes buscan establecer una conexión con lo divino, expresar su fe, gratitud, encontrar consuelo y fortaleza en momentos de dificultad. Se convierte en un momento de reflexión íntima y profunda conexión con lo sagrado. Además, se considera una forma de mostrar devoción y rendir culto a la divinidad, fortaleciendo la relación entre el creyente y su objeto de adoración.</p>
             <p><strong>Rezo:</strong> Implica la repetición de frases o palabras rituales. Es una manifestación de agradecimiento o peticiones a Dios, pero no necesariamente un diálogo profundo, se basa en fórmulas establecidas y gestos específicos.</p>
@@ -265,7 +270,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
         </section>
 
         <section class="section" style="text-align: center; margin: 20px 0;">
-            <h2>Autores del desarrollo religioso - Mariana Jáuregui</h2>
+            <h2>Autores del desarrollo religioso - <span class="author">Mariana Jáuregui</span></h2>
               <ul>
                 <li><strong>Piaget:</strong> Tipos de inteligencia.</li>
                 <li><strong>Oser:</strong> Juicio religioso.</li>
@@ -278,13 +283,13 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
         </section>
 
         <section class="section" style="text-align: center; margin: 20px 0;">
-            <h2>Cronología bíblica de Jesús - Mariana Jáuregui Salazar</h2>
+            <h2>Cronología bíblica de Jesús - <span class="author">Mariana Jáuregui</span></h2>
             <img src="img/crono.png" alt="Cronología de Jesús" style="max-width: 100%; height: auto; border-radius: 8px;">
                         <img src="img/revelacion.png" alt="Cronología de Jesús" style="max-width: 100%; height: auto; border-radius: 8px;">
             <p>Jesús tuvo múltiples etapas de desarrollo, como se presenta en las siguientes cronologías:</p>
         </section>
         <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>Características de la fe - Alejandro Muñoz</h2>
+    <h2>Características de la fe - <span class="author">Alejandro Muñoz</span></h2>
     <img src="img/munoz.jpeg" alt="Fe" style="max-width: 100%; height: auto; border-radius: 8px;">
     <p>Cada persona puede experimentar y definir la fe de manera única, y sus características pueden variar según la tradición cultural, religiosa o personal de cada individuo, pero estas son las características generales:</p>
     <ul>
@@ -300,7 +305,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
 </section>
 
 <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>Partes de la Eucaristía - Saraí</h2>
+    <h2>Partes de la Eucaristía - <span class="author">Saraí</span></h2>
     <img src="img/sarai.jpeg" alt="Eucaristía" style="max-width: 100%; height: auto; border-radius: 8px;">
     <ul>
         <li><strong>Ritos iniciales:</strong> Son la primera parte de la Misa, sus propósitos son preparar a los creyentes espiritualmente para participar en el sacrificio eucarístico. Incluyen la entrada, el saludo inicial, el acto penitencial, el Kyrie, el Gloria (cuando se recita), y la oración colecta.</li>
@@ -312,7 +317,7 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
 
 
 <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>Jerarquía en la Iglesia Católica - Alejandro Tejeda</h2>
+    <h2>Jerarquía en la Iglesia Católica - <span class="author">Alejandro Tejeda</span></h2>
     <img src="img/tejeda.jpg" alt="Jerarquía Iglesia Católica" style="max-width: 100%; height: auto; border-radius: 8px;">
     <ul>
         <li><strong>Sacerdotes Diocesanos:</strong> Estos sacerdotes están asignados a una diócesis específica y trabajan bajo la autoridad del obispo diocesano. Suelen servir en parroquias locales, ofreciendo misas, sacramentos, y otras funciones pastorales.</li>
@@ -324,8 +329,9 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
     </ul>
     <p>Además de estos roles, hay otras posiciones específicas como los diáconos, que pueden ser permanentes (no aspirando al sacerdocio) o transitorios (en camino a ser sacerdotes).</p>
 </section>
+        
         <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>Cómo Acercarse a Dios y las Conexiones que esto Genera</h2>
+    <h2>Cómo Acercarse a Dios y las Conexiones que esto Genera - <span class="author">Dana Gisel Martin</span></h2>
     <p><strong>Oración: Un Puente Personal</strong></p>
     <p>La oración es una conversación íntima con Dios. Nos brinda paz y claridad, conectándonos con nosotros mismos y con lo divino.</p>
     
@@ -343,12 +349,12 @@ Fue después de su muerte y resurrección que sus seguidores, liderados por los 
     
     <p>Acercarse a Dios enriquece nuestra vida y nos conecta con algo más grande, creando relaciones significativas con nosotros mismos, los demás y el mundo.</p>
     
-    <img src="img/diosito.jpeg" alt="Jerarquía Iglesia Católica" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="img/diosito.jpg" alt="Jerarquía Iglesia Católica" style="max-width: 100%; height: auto; border-radius: 8px;">
 </section>
 
         
 <section class="section" style="text-align: center; margin: 20px 0;">
-    <h2>MITO DE SANSÓN EDSON GAEL 👻</h2>
+    <h2>MITO DE SANSÓN  <span class="author"> EDSON GAEL 👻</h2>
     <p>Sansón fue un tipo duro del Antiguo Testamento, un superhéroe hebreo que tenía una fuerza sobrehumana gracias a un secreto: su lustrosa melena.</p>
     <p>Eso quería decir que si le cortan el cabello el israelita perdería toda su fuerza. Y eso es precisamente lo que terminan haciendo sus enemigos, los filisteos. Engañado por la bella Dalila, de la que se enamora perdidamente a pesar de ser del bando contrario, el héroe se queda dormido y la filistea le corta su melena, dejándolo débil como un bebé.</p>
     <p>Así lo vemos en la imagen, desesperado, reducido por unos cuantos hombres (cuando había acabado con ejércitos enteros él solito), y mientras la mujer fatal le enseña su cabellera mientras esboza una sonrisa malévola.</p>
