@@ -13,115 +13,134 @@
     <link rel="stylesheet" href="css/demo.css">
     <title>Blog sobre Jesús</title>
     <style>
-        body {
-            font-family: 'Cinzel', serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            background-image: url('img/cielo.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-        header {
-            background-color: #581845;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
-            margin: 0;
-            padding: 0;
-            background-color: #333;
-            text-align: center; /* Esta línea centra el contenido del nav */
+       body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('img/cielo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        nav ul li {
-            float: left;
-        }
-        nav ul li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            background-color: #111;
-        }
-        main {
-            padding: 20px;
-        }
-        .post, .section {
-            background-color: white;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .post h2, .section h2 {
-            margin-top: 0;
-        }
-        .post img, .section img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .post p, .section p {
-            text-align: justify;
-        }
-        footer {
-            text-align: center;
-            padding: 1em;
-            background-color: #581845;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .social-buttons {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .social-buttons a {
-            display: inline-block;
-            margin: 0 10px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color: #333;
-            color: white;
-            text-align: center;
-            line-height: 40px;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .social-buttons a:hover {
-            background-color: #4CAF50;
-            transform: scale(1.1);
-        }
-        .social-buttons i {
-            font-size: 20px;
-        }
-        .jesus-image {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .jesus-image img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .author {
-            color: #0000FF; /* Azul para los nombres de los autores */
-            font-weight: bold;
-        }order-radius: 8px;
-        }
+header {
+    background-color: #581845;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Centra el ul dentro del nav */
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Usa flexbox para alinear los elementos en línea */
+    justify-content: center; /* Centra los elementos en el contenedor */
+}
+
+nav ul li {
+    margin: 0; /* Elimina el margen de los elementos de lista */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+.post, .section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2, .section h2 {
+    margin-top: 0;
+}
+
+.post img, .section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post p, .section p {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #581845;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-buttons a:hover {
+    background-color: #4CAF50;
+    transform: scale(1.1);
+}
+
+.social-buttons i {
+    font-size: 20px;
+}
+
+.jesus-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.jesus-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.author {
+    color: #0000FF; /* Azul para los nombres de los autores */
+    font-weight: bold;
+}
+
     </style>
 </head>
 <body>
